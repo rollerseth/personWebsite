@@ -1,8 +1,7 @@
 import React from 'react'
 import * as AiIcons from 'react-icons/ai';
-import * as FaIcons from 'react-icons/fa';
-import * as IoIcons from 'react-icons/io';
 import * as BsIcons from 'react-icons/bs';
+import * as HiIcons from 'react-icons/hi';
 
 export const SidebarData = [
     {
@@ -41,4 +40,12 @@ export const socialMediaURLS = [
         path: 'https://www.facebook.com/seth.roller.1/',
         icon: <AiIcons.AiFillFacebook size={40} className="navbar-icons" />,
     }, 
+]
+
+export const emailIcon = [
+    {
+        title: 'Email',
+        path: 'mailto:rollerseth@gmail.com',
+        icon: <HiIcons.HiOutlineMail size={40} className="navbar-icons" />
+    }
 ]

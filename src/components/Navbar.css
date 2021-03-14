@@ -1,11 +1,12 @@
 .navbar {
     background-color: #2b8242;
-    height: 80px;
+    height: 5rem;
     display: flex;
+    flex: 1 1 0;
 }
 
 .navbar-inner {
-    width: 54%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,6 +21,17 @@
 .menu-bars:hover .navbar-icons {
     color: #2b8242;
     background-color: #060b26;
+}
+
+.email-icon {
+    margin-right: 2rem;
+    background: none;
+}
+
+.email-icon:hover .navbar-icons {
+    color: #2b8242;
+    background-color: #060b26;
+    border-color: #060b26;
 }
 
 .nav-menu {
@@ -49,6 +61,20 @@
 }
 
 .navbar-icons {
+    color: #060b26;
+    background-color: #2b8242;
+    border: 2px solid;
+    border-radius: 2rem;
+    padding: 1px 1px 1px;
+}
+
+.menu-bars:hover .close-icon {
+    color: #2b8242;
+    background-color: #060b26;
+    border-color: #060b26;
+}
+
+.close-icon {
     color: #060b26;
     background-color: #2b8242;
     border: 2px solid;
@@ -99,7 +125,14 @@
 }
 
 .social-media-icon {
-    padding-right: 10px;
+    padding-right: 1rem;
+}
+
+.social-media-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
 }
 
 .social-media-icon:hover .navbar-icons {

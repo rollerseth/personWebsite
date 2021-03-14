@@ -7,10 +7,42 @@
   font-family: 'Ranchers', sans-serif;
 }
 
+img {
+  border-radius: 25%;
+}
+
+.aws-btn {
+
+  --slider-height-percentage: 60%;
+  --slider-transition-duration: 575ms;
+  --organic-arrow-thickness: 4px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 40px;
+  --organic-arrow-color: #6a6a6a;
+  --control-button-width: 10%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #6a6a6a;
+  --control-bullet-active-color: #6a6a6a;
+  --loader-bar-color: #851515;
+  --loader-bar-height: 6px;
+
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+}
+
+.inner-container {
+  flex: 1 1 0;
+}
+
 .home, .about {
   display: flex;
-  height: 90vh;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+  margin: 25px 50px 75px 100px;;
   font-size: 3rem;
 }
